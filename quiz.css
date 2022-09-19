@@ -1,0 +1,21 @@
+.radio{
+    padding: 0;
+    margin: 0;  
+}
+input{
+    width: auto;
+}
+.quiz-main {
+    /* margin: 2rem auto; */
+    text-align: center;
+  }
+  
+  .question-container {
+    width: 85%;
+    /* margin: 1rem auto; */
+    font-size: larger;
+    /* padding: 1rem 0; */
+  }
+  
+  
+  
