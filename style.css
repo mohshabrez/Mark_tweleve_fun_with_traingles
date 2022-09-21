@@ -5,7 +5,7 @@
 }
 
 :root{
-    --primary_color : #C0C0C0;
+    --primary_color : #efecec;
     --secondary_color: #533a25;
 }
 
@@ -30,7 +30,11 @@ li{
 
 header{
     padding: 1rem;
-    background-color: var(--secondary_color);
+    background-image: linear-gradient( 225deg,
+    #9d8b9c 0%,
+    #784ba0 50%,
+    #8ca1b4 100%);
+    /* background-color: var(--secondary_color); */
     color: #fff;
 }
 header h1{
@@ -92,24 +96,29 @@ button{
     padding: 0.2rem;
     border-radius: 0.2rem;
     margin: auto;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 button:hover{
-    background-color: rgb(214, 245, 245);
+    background-color: rgb(160, 51, 147);
 }
 
 #output{
-    color:darkblue;
+    color:rgb(18, 17, 17);
     text-decoration: solid;
-    font-size: larger;
+    font-size: x-large;
+    padding: 2rem
 }
 
 footer{
     text-align: center;
-    background-color: #533a25;
+    /* background-color: #533a25; */
     margin-bottom: 0%;
     padding: 2rem;
+    background-image: linear-gradient( 225deg,
+    #9d8b9c 0%,
+    #784ba0 50%,
+    #8ca1b4 100%);
     
     
 }
